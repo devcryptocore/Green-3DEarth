@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/animations.css">
+    <title>Tierra 3D</title>
+    <script type="importmap">
+		{
+			"imports": {
+				"three": "./js/build/three.module.js",
+				"three/addons/": "./js/jsm/"
+			}
+		}
+	</script>
+    <script type="module" src="js/main.js"></script>
+	<script src="js/particles.js"></script>
+	<script src="js/app.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="excontainer">
+			<div class="myWave"></div>
+		</div>
+		<div class="mainContainer">
+			<div class="mobileOptionsBlock" id="mOptions">
+				<span class="closeButton"></span>
+				<div class="mOptions">
+					<a class="optionSource" href="#home">Inicio</a>
+					<a class="optionSource" href="#services">Servicios</a>
+					<a class="optionSource" href="#FAQs">Consultas</a>
+					<a class="optionSource" href="#support">Soporte</a>
+					<a class="optionSource" href="#contacts">Contactos</a>
+					<a class="optionSource" href="#about">Nosotros</a>
+				</div>
+			</div>
+			<nav class="headBar">
+				<span class="nameTitle">Tu logo<b>Tu empresa</b></span>
+				<div class="optionsBlock">
+					<a class="optionSource" href="#home">Inicio</a>
+					<a class="optionSource" href="#services">Servicios</a>
+					<a class="optionSource" href="#FAQs">Consultas</a>
+					<a class="optionSource" href="#support">Soporte</a>
+					<a class="optionSource" href="#contacts">Contactos</a>
+					<a class="optionSource" href="#about">Nosotros</a>
+				</div>
+				<div class="optionsMobile" id="mobileOp">
+					<img src="assets/images/menu.svg" alt="menu" class="menuButton">
+				</div>
+			</nav>
+			<section class="bodyCont">
+				<div id="content"></div>
+				<canvas id="canvas"></canvas>
+				<div class="textContainer">
+					<h1 class="bFont">Navega a la velocidad de la luz</h1>
+					<h2 class="mFont">Conéctate con la red más rápida y estable de la ciudad. Olvídate de los cortes y disfruta de una experiencia en línea sin límites.</h2>
+				</div>
+				<div class="boxes">
+					<div class="textBox">
+						<span class="mIcon"></span>
+						<h3 class="mTit">Internet</h3>
+						<img src="assets/images/eng.png" alt="engineer" class="refImg">
+					</div>
+					<div class="textBox">
+						<span class="mIcon stat"></span>
+						<h3 class="mTit itv">Televisión</h3>
+						<img src="assets/images/tvs.png" alt="tvwork" class="refImg">
+					</div>
+				</div>
+				<div class="socialContainer">
+					<span class="socialButton whatsapp"></span>
+					<span class="socialButton facebook"></span>
+					<span class="socialButton instagram"></span>
+					<span class="socialButton tiktok"></span>
+					<span class="socialButton telegram"></span>
+					<span class="socialButton x"></span>
+					<span class="socialButton email"></span>
+				</div>
+			</section>
+		</div>
+		<footer id="brandFooter"></footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>

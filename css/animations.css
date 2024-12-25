@@ -1,0 +1,58 @@
+@keyframes inPage {
+        0% {transform: translateX(-100%);opacity: 0;}
+        20% {transform: translateX(-80%);opacity: .1;}
+        40% {transform: translateX(-60%);opacity: .3;}
+        60% {transform: translateX(-40%);opacity: .4;}
+        80% {transform: translateX(-20%);opacity: .5;}
+        100% {transform: translateX(0%);opacity: 1;}
+}
+@keyframes inPageRight {
+    0% {transform: translateX(200%);opacity: 0;}
+    20% {transform: translateX(100%);opacity: .1;}
+    40% {transform: translateX(60%);opacity: .3;}
+    60% {transform: translateX(40%);opacity: .4;}
+    80% {transform: translateX(20%);opacity: .5;}
+    100% {transform: translateX(0%);opacity: 1;}
+}
+@keyframes upper {
+    0% {transform: translateY(-100%);opacity: 0;}
+    20% {transform: translateY(-80%);opacity: .1;}
+    40% {transform: translateY(-60%);opacity: .3;}
+    60% {transform: translateY(-40%);opacity: .4;}
+    80% {transform: translateY(-20%);opacity: .5;}
+    100% {transform: translateY(0%);opacity: 1;}
+}
+@keyframes downer {
+    0% {transform: translateY(100%);opacity: 0;}
+    20% {transform: translateY(80%);opacity: .1;}
+    40% {transform: translateY(60%);opacity: .3;}
+    60% {transform: translateY(40%);opacity: .4;}
+    80% {transform: translateY(20%);opacity: .5;}
+    100% {transform: translateY(0%);opacity: 1;}
+}
+@keyframes ZoomEarth {
+    from {right: -100vw;top: 5vh;opacity: 0;}
+    to {right: 6vw;top: 5vh;opacity: 1;}
+}
+@keyframes mobileZoomEarth {
+    from {right: -100vw;top: 1vh;opacity: 0;}
+    to {right: 3vw;top: 1vh;opacity: 1;}
+}
+@keyframes extends {
+    from {width: 0vw;opacity: 0;}
+    to {width: 20vw;opacity: 1;}
+}
+@keyframes inMenu {
+    from {
+        width: 100px;
+        height: 100px;
+        transform: translate(70vw, -1vh) scale(.3);
+        border-radius: 50%;
+    }
+    to {
+        width: 100%;
+        height: 100%;
+        border-radius: 40px;
+        transform: translate(0vw, 0vh) scale(1);
+    }
+}
